@@ -5,7 +5,7 @@ import com.microservice.accounts.dto.AccountsDto;
 import com.microservice.accounts.entity.Accounts;
 
 public class AccountsMapper {
-
+//convert accounts to accounts dto
     public static AccountsDto mapToAccountsDto(Accounts accounts, AccountsDto accountsDto) {
         accountsDto.setAccountNumber(accounts.getAccountNumber());
         accountsDto.setAccountType(accounts.getAccountType());
